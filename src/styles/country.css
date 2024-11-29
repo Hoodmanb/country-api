@@ -1,0 +1,14 @@
+.borders{
+  display: flex ;
+  flex-direction: row;
+  justify-content: space-between ;
+  width:auto;
+  flex-wrap: wrap;
+  text-align: center;
+}
+
+.border{
+  border: 0.5px solid grey;
+  padding: 10px;
+  margin: 10px auto;
+}
