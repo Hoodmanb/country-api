@@ -49,6 +49,10 @@
   align-items: center;
 }
 
+.cont{
+  flex-wrap: wrap;
+}
+
 .details span{
   margin: 2px;
   margin-left: 25px;
