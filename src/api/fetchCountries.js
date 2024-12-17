@@ -8,7 +8,7 @@ const fetchCountries = () => {
     })
     .catch((err) => {
       console.error(err);
-      return [{name:'js', id:'test'}];
+      return err;
     });
 };
 
